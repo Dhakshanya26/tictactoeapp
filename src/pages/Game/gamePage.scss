@@ -1,0 +1,43 @@
+.main-container {
+  h1 {
+    font-family: fantasy;
+  }
+  .avoid-clicks {
+    cursor: no-drop;
+    pointer-events: none;
+  }
+
+  .jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    background: white;
+  }
+  .card {
+    box-shadow: 5px 5px 5px 5px #cccccc;
+    .playboard-wrapper {
+      width: 300px;
+
+      .col-4 {
+        padding: 0;
+      }
+      .play-board-box {
+        padding: 30px;
+      }
+
+      button {
+        width: 100%;
+        min-height: 100px;
+        svg {
+          font-size: 33px;
+        }
+      }
+    }
+  }
+
+  .game-finished {
+    button {
+      cursor: no-drop;
+    }
+  }
+}
